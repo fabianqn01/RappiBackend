@@ -1,0 +1,9 @@
+C:\FullStack\RestFull\Rappi\Rappi.Core\bin\Debug\netstandard2.0\Rappi.Core.deps.json
+C:\FullStack\RestFull\Rappi\Rappi.Core\bin\Debug\netstandard2.0\Rappi.Core.dll
+C:\FullStack\RestFull\Rappi\Rappi.Core\bin\Debug\netstandard2.0\Rappi.Core.pdb
+C:\FullStack\RestFull\Rappi\Rappi.Core\obj\Debug\netstandard2.0\Rappi.Core.csproj.CoreCompileInputs.cache
+C:\FullStack\RestFull\Rappi\Rappi.Core\obj\Debug\netstandard2.0\Rappi.Core.AssemblyInfoInputs.cache
+C:\FullStack\RestFull\Rappi\Rappi.Core\obj\Debug\netstandard2.0\Rappi.Core.AssemblyInfo.cs
+C:\FullStack\RestFull\Rappi\Rappi.Core\obj\Debug\netstandard2.0\Rappi.Core.dll
+C:\FullStack\RestFull\Rappi\Rappi.Core\obj\Debug\netstandard2.0\Rappi.Core.pdb
+C:\FullStack\RestFull\Rappi\Rappi.Core\obj\Debug\netstandard2.0\Rappi.Core.csprojAssemblyReference.cache

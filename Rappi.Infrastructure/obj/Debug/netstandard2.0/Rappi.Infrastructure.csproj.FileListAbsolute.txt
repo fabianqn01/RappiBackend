@@ -1,0 +1,12 @@
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\bin\Debug\netstandard2.0\Rappi.Infrastructure.deps.json
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\bin\Debug\netstandard2.0\Rappi.Infrastructure.dll
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\bin\Debug\netstandard2.0\Rappi.Infrastructure.pdb
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\bin\Debug\netstandard2.0\Rappi.Core.dll
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\bin\Debug\netstandard2.0\Rappi.Core.pdb
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\obj\Debug\netstandard2.0\Rappi.Infrastructure.csprojAssemblyReference.cache
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\obj\Debug\netstandard2.0\Rappi.Infrastructure.AssemblyInfoInputs.cache
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\obj\Debug\netstandard2.0\Rappi.Infrastructure.AssemblyInfo.cs
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\obj\Debug\netstandard2.0\Rappi.Infrastructure.csproj.CopyComplete
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\obj\Debug\netstandard2.0\Rappi.Infrastructure.dll
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\obj\Debug\netstandard2.0\Rappi.Infrastructure.pdb
+C:\FullStack\RestFull\Rappi\Rappi.Infrastructure\obj\Debug\netstandard2.0\Rappi.Infrastructure.csproj.CoreCompileInputs.cache

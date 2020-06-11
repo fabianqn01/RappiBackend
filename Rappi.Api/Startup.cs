@@ -35,6 +35,12 @@ namespace Rappi.Api
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
             services.AddTransient<IEmployeeService, EmployeeService>();
 
+            services.AddTransient<IAreaRepository, AreaRepository>();
+            services.AddTransient<IAreaService, AreaService>();
+
+            services.AddTransient<ITypeIdentificationRepository, TypeIdentificationRepository>();
+            services.AddTransient<ITypeIdentificationService, TypeIdentificationService>();
+
             services.AddAuthentication(IISDefaults.AuthenticationScheme);
 
             //implementar llamado a la cadena de conexion que esta en appsettings.json

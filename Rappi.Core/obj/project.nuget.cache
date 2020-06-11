@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ncwhk32qLq4A0Sz20+NJY6oZBjPKWEpP+LPP9IEDoo3eKKcmg1PM5duB3BOeWnWeFRB234y/kvyfFTabOEEqGQ==",
+  "dgSpecHash": "RucPnivt6KUAfZkSpJLMxtmeFraHjial9lKS1AMBebOJQuVPAhqz/waW+GU3/ueXe6kYvbFf9OKVe3AsU+pcAg==",
   "success": true,
-  "projectFilePath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj",
+  "projectFilePath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

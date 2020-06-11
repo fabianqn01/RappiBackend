@@ -3477,11 +3477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FullStack\\RestFull\\Rappi\\Rappi.IntegrationTest\\Rappi.IntegrationTest.csproj",
+      "projectUniqueName": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.IntegrationTest\\Rappi.IntegrationTest.csproj",
       "projectName": "Rappi.IntegrationTest",
-      "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.IntegrationTest\\Rappi.IntegrationTest.csproj",
+      "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.IntegrationTest\\Rappi.IntegrationTest.csproj",
       "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-      "outputPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.IntegrationTest\\obj\\",
+      "outputPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.IntegrationTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

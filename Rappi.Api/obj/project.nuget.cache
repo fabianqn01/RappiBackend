@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0GvqA7AypyPVwMHAZUtvRM2UIMVj307ppqfaGRzF63Ds3AJbBrmg1l7GpwftXr3XTAVJJ9Ti9+VWpchCACr/LQ==",
+  "dgSpecHash": "GBDj2WwiCb3B2HpJlUS8BsfwyCw6sJWzjdbNCRGwasdONCk6jgpLXUuEUXRVDUFSXj2YInzitJydkKBpjlX+7A==",
   "success": true,
-  "projectFilePath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Api\\Rappi.Api.csproj",
+  "projectFilePath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Api\\Rappi.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fabia\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\fabia\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

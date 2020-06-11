@@ -24,7 +24,7 @@ namespace Rappi.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetEmployees()
         {
-            
+
             var employees = await _employeeService.GetEmployees();
             return Ok(employees);
         }
@@ -60,6 +60,12 @@ namespace Rappi.Api.Controllers
         public async Task UpdateEmployee(Employee employee)
         {
             await _employeeService.UpdateEmployee(employee);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task DeleteEmployee(int id)
+        {
+            await _employeeService.DeleteEmployee(id);
         }
     }
 }

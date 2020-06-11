@@ -73,6 +73,10 @@ namespace Rappi.Infrastructure.Repositories
                 DateTime.Now).ToListAsync();
         }
 
+        public async Task DeleteEmployee(int id)
+        {
+            await _context.Employee.FromSqlRaw("deleteEmployee {0}",id).ToListAsync();
+        }
 
 
 

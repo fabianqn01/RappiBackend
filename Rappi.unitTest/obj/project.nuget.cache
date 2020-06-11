@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQCEHLleXZs4308NpSSkBOrXhPRjtZb24nXoWcYjCQp5C5U+0Wt2R2UemRfstqobwFnVoJCCFP4JqzIdHbN//w==",
+  "dgSpecHash": "H6+p2ZrqJqgFd5b734vuJVNa4UQvAGV2DBRlsMVQGyUwDlkLxGkjbtPbkAPtQzJYrJ46hh3RM2NDri8apEby4g==",
   "success": true,
-  "projectFilePath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.unitTest\\Rappi.unitTest.csproj",
+  "projectFilePath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.unitTest\\Rappi.unitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fabia\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\fabia\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

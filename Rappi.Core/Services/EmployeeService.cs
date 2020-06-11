@@ -45,5 +45,10 @@ namespace Rappi.Core.Services
         {
             await _employeeRepository.UpdateEmployee(employee);
         }
+
+        public async Task DeleteEmployee(int id)
+        {
+            await _employeeRepository.DeleteEmployee(id);
+        }
     }
 }

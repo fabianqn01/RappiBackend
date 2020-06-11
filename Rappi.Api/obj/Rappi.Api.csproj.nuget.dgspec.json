@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FullStack\\RestFull\\Rappi\\Rappi.Api\\Rappi.Api.csproj": {}
+    "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Api\\Rappi.Api.csproj": {}
   },
   "projects": {
-    "C:\\FullStack\\RestFull\\Rappi\\Rappi.Api\\Rappi.Api.csproj": {
+    "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Api\\Rappi.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Api\\Rappi.Api.csproj",
+        "projectUniqueName": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Api\\Rappi.Api.csproj",
         "projectName": "Rappi.Api",
-        "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Api\\Rappi.Api.csproj",
+        "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Api\\Rappi.Api.csproj",
         "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Api\\obj\\",
+        "outputPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj": {
-                "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj"
+              "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj": {
+                "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj"
               },
-              "C:\\FullStack\\RestFull\\Rappi\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj": {
-                "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj"
+              "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj": {
+                "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj": {
+    "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj",
+        "projectUniqueName": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj",
         "projectName": "Rappi.Core",
-        "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj",
+        "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj",
         "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\obj\\",
+        "outputPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -143,14 +143,14 @@
         }
       }
     },
-    "C:\\FullStack\\RestFull\\Rappi\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj": {
+    "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj",
+        "projectUniqueName": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj",
         "projectName": "Rappi.Infrastructure",
-        "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj",
+        "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Infrastructure\\obj\\",
+        "outputPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -171,8 +171,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj": {
-                "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Core\\Rappi.Core.csproj"
+              "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj": {
+                "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Core\\Rappi.Core.csproj"
               }
             }
           }

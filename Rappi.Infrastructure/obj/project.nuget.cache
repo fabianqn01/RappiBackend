@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DxW6Upq+8YirPZixJGtiqJMIPLeTphLJHIOCAJ2hfOsZD3shQPba4HwJkWsCcCI207EbH5N6Ewb02G31zYRSpw==",
+  "dgSpecHash": "mhveOsuFjn4ibqTzRFn9V1BoXZ1bD3HEhjupmMQDs2/ABYmBwAaMrLfXXU95UaDQdyYAff1NZdkITwusHB26QQ==",
   "success": true,
-  "projectFilePath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj",
+  "projectFilePath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.Infrastructure\\Rappi.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fabia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\fabia\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

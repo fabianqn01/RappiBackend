@@ -3477,11 +3477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FullStack\\RestFull\\Rappi\\Rappi.unitTest\\Rappi.unitTest.csproj",
+      "projectUniqueName": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.unitTest\\Rappi.unitTest.csproj",
       "projectName": "Rappi.unitTest",
-      "projectPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.unitTest\\Rappi.unitTest.csproj",
+      "projectPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.unitTest\\Rappi.unitTest.csproj",
       "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-      "outputPath": "C:\\FullStack\\RestFull\\Rappi\\Rappi.unitTest\\obj\\",
+      "outputPath": "C:\\FullStack\\RestFull\\RappiBackend\\Rappi.unitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

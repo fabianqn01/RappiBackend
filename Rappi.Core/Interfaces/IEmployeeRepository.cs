@@ -19,5 +19,7 @@ namespace Rappi.Core.Interfaces
         Task SetEmployee(Employee id);
 
         Task UpdateEmployee(Employee id);
+
+        Task DeleteEmployee(int id);
     }
 }

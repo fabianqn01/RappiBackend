@@ -20,6 +20,11 @@ namespace Rappi.Core.Services
             return await _areaRepository.GetAreas();
         }
 
+        public async Task<SubArea> GetSubAreaByID(int idSubArea)
+        {
+            return await _areaRepository.GetSubAreaByID(idSubArea);
+        }
+
         public async Task<IEnumerable<SubArea>> GetSubAreasByArea(int idArea)
         {
             return await _areaRepository.GetSubAreasByArea(idArea);

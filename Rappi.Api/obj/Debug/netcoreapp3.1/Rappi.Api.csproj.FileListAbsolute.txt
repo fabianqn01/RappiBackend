@@ -249,8 +249,6 @@ C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Rappi.Infra
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Rappi.Core.pdb
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Rappi.Infrastructure.pdb
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.csprojAssemblyReference.cache
-C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.csproj.CoreCompileInputs.cache
-C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.AssemblyInfoInputs.cache
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.AssemblyInfo.cs
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.RazorTargetAssemblyInfo.cache
@@ -260,3 +258,10 @@ C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\staticwebas
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.dll
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.pdb
 C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.genruntimeconfig.cache
+C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\FullStack\RestFull\RappiBackend\Rappi.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.csproj.CoreCompileInputs.cache
+C:\FullStack\RestFull\RappiBackend\Rappi.Api\obj\Debug\netcoreapp3.1\Rappi.Api.MvcApplicationPartsAssemblyInfo.cache

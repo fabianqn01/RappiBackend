@@ -30,8 +30,17 @@ namespace Rappi.Api.Controllers
         public async Task<IActionResult> GetSubAreas(int id)
         {
 
-            var areas = await _areaService.GetSubAreasByArea(id);
-            return Ok(areas);
+            var subAreas = await _areaService.GetSubAreasByArea(id);
+            return Ok(subAreas);
         }
+
+        [HttpGet("GetSubAreaByID/{id}")]
+        public async Task<IActionResult> GetSubAreaByID(int id)
+        {
+            var subArea = await _areaService.GetSubAreaByID(id);
+            return Ok(subArea);
+        }
+
+
     }
 }

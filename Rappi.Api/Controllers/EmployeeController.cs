@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Rappi.Core.Entities;
@@ -12,6 +13,7 @@ namespace Rappi.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
@@ -22,6 +24,7 @@ namespace Rappi.Api.Controllers
         }
 
         [HttpGet]
+        
         public async Task<IActionResult> GetEmployees()
         {
 
@@ -29,7 +32,7 @@ namespace Rappi.Api.Controllers
             return Ok(employees);
         }
 
-        [HttpGet("GetEmployeeByID/{id}")]
+        [HttpGet("GetEmployeeByID/{id}")]                           
         public async Task<IActionResult> GetEmployeeByID(int id)
         {
             var employee = await _employeeService.GetEmployeeByID(id);

@@ -11,5 +11,7 @@ namespace Rappi.Core.Interfaces
         Task<IEnumerable<Area>> GetAreas();
 
         Task<IEnumerable<SubArea>> GetSubAreasByArea(int idArea);
+
+        Task<SubArea> GetSubAreaByID(int idSubArea);
     }
 }

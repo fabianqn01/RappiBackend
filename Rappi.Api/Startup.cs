@@ -31,6 +31,30 @@ namespace Rappi.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //configuracion para integrar servicios con angular
+            services.AddCors(options =>
+            {
+                
+                options.AddPolicy(
+                  "CorsPolicy",
+                  builder => builder.WithOrigins("http://localhost:4200")
+                  .AllowAnyMethod()
+                  .AllowAnyHeader()
+                  .AllowCredentials());
+            });
+            services.AddAuthentication(IISDefaults.AuthenticationScheme);
+
+            //SuppressModelStateInvalidFilter nos ayuda a eliminar mensaje de response con data que no le interesa al  request
+            services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            })
+            .ConfigureApiBehaviorOptions(options =>
+            {
+                options.SuppressModelStateInvalidFilter = true;
+            })
+                ;
+
             services.AddControllers();
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
             services.AddTransient<IEmployeeService, EmployeeService>();
@@ -54,6 +78,9 @@ namespace Rappi.Api
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
+            //configuracion para integrar angular
+            app.UseCors("CorsPolicy");
+            //app.UsePreflightRequestHandler();
 
             if (env.IsDevelopment())
             {

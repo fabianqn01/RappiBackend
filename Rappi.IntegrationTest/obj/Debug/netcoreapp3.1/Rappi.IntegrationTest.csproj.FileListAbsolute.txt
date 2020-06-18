@@ -182,7 +182,6 @@ C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\bin\Debug\netcoreapp3.1
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.csprojAssemblyReference.cache
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.csproj.CoreCompileInputs.cache
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.AssemblyInfoInputs.cache
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.AssemblyInfo.cs
@@ -190,3 +189,4 @@ C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.dll
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.pdb
 C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.genruntimeconfig.cache
+C:\FullStack\RestFull\RappiBackend\Rappi.IntegrationTest\obj\Debug\netcoreapp3.1\Rappi.IntegrationTest.csprojAssemblyReference.cache

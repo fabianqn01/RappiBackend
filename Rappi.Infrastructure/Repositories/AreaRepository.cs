@@ -4,6 +4,7 @@ using Rappi.Core.Interfaces;
 using Rappi.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,6 +29,12 @@ namespace Rappi.Infrastructure.Repositories
         {
             var subAreas = await _context.SubArea.FromSqlRaw<SubArea>("getSubAreas {0}", idArea).ToListAsync();
             return subAreas;
+        }
+
+        public async Task<SubArea> GetSubAreaByID(int idSubArea)
+        {
+            var subArea = await _context.SubArea.FromSqlRaw<SubArea>("getSubAreaByID {0}", idSubArea).ToListAsync();
+            return subArea.FirstOrDefault();
         }
     }
 }

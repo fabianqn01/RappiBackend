@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Rappi.Core.Entities;
 using Rappi.Core.Interfaces;
+using Rappi.Core.QueryFilters;
 using Rappi.Infrastructure.Repositories;
 
 namespace Rappi.Api.Controllers
@@ -25,10 +26,10 @@ namespace Rappi.Api.Controllers
 
         [HttpGet]
         
-        public async Task<IActionResult> GetEmployees()
+        public IActionResult GetEmployees([FromQuery]EmployeeQueryFilter filters)
         {
 
-            var employees = await _employeeService.GetEmployees();
+            var employees =  _employeeService.GetEmployees(filters);
             return Ok(employees);
         }
 

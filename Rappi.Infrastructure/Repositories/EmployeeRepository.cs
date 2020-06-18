@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Rappi.Core.Entities;
 using Rappi.Core.Interfaces;
+using Rappi.Core.QueryFilters;
 using Rappi.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
@@ -21,10 +22,12 @@ namespace Rappi.Infrastructure.Repositories
         {
             _context = context;
         }
-        public async Task<IEnumerable<Employee>> GetEmployees()
+        public IEnumerable<Employee> GetEmployees(EmployeeQueryFilter filters)
         {
-            var employees = await _context.Employee.FromSqlRaw<Employee>("getEmployees").ToListAsync();
-            return employees;
+            return _context.Employee.FromSqlRaw<Employee>("getEmployees {0},{1},{2}",
+                filters.NumberDocument,
+                filters.FirstName,
+                filters.LastName).ToList();
         }
 
         public async Task<Employee> GetEmployeeByID(int id)

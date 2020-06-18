@@ -1,7 +1,9 @@
 ﻿using Rappi.Core.Entities;
 using Rappi.Core.Interfaces;
+using Rappi.Core.QueryFilters;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,9 +33,9 @@ namespace Rappi.Core.Services
             return await _employeeRepository.GetEmployeeByName(firstName, lastName);
         }
 
-        public async Task<IEnumerable<Employee>> GetEmployees()
+        public IEnumerable<Employee> GetEmployees(EmployeeQueryFilter filters)
         {
-            return await _employeeRepository.GetEmployees();
+            return  _employeeRepository.GetEmployees(filters);
         }
 
         public async Task SetEmployee(Employee employee)

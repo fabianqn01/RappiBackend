@@ -1,4 +1,5 @@
 ﻿using Rappi.Core.Entities;
+using Rappi.Core.QueryFilters;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +9,7 @@ namespace Rappi.Core.Interfaces
 {
     public interface IEmployeeService
     {
-        Task<IEnumerable<Employee>> GetEmployees();
+        IEnumerable<Employee> GetEmployees(EmployeeQueryFilter filters);
 
         Task<Employee> GetEmployeeByID(int id);
 
